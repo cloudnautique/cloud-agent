@@ -1,0 +1,7 @@
+Always use the absolute path when working with the workspace directory
+Check for a file called aws_profile in the workspace, if present read contents.
+List all AWS profiles, if the contents of the aws_profile is in the list, tell the user they are using that profile.
+If there is no file or content, show the user the profile list and ask which profile to use.
+Save the users response in the in the file aws_profile in the workspace. 
+
+Always pass the profile name to the aws cli commands.
